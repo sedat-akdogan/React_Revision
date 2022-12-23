@@ -2,22 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import './index.css';           // this line links the CSS file
-// import App from './App';  // this line calls the App.js file
+import App from './App';  // this line calls the App.js file
 
 // const element = <h1>Rendering is redirected</h1>   // we can turn this element into a function:
 
-const App = () => {              //  if we want to create a component; we must make the fisrt letter Capital: const Element !!
-  return (
-     // we need to have an empty folder-like design if we are going to have morethen one element.
-    <>                                                                           
-      <h1> the element is a function now!! </h1>
-      <p>This is an arrow function</p>
-      <Child />
-    </>
-  );
-};
+// const App = () => {              //  if we want to create a component; we must make the fisrt letter Capital: const Element !!
+//   return (
+//      // we need to have an empty folder-like design if we are going to have morethen one element.
+//     <>                                                                           
+//       <h1> the element is a function now!! </h1>
+//       <p>This is an arrow function</p>
+//       <Child />  
+//     </>
+//   );               // we can use "Child" more than one time.
+// };
 
-const Child = () => <p>I am a child element</p>;
+// const Child = () => <p>I am a child element</p>;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<App/>);            // App.js is rendered by this line of code
