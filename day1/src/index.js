@@ -23,3 +23,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(<App/>);            // App.js is rendered by this line of code
 // root.render(element);          // element is just a simple element. 
 root.render(<App />);          // element() is a function now.         // calling a component: root.render(<Element />);
+
+
+// we need index.html for;
+// --Font Family links,
+// --If we need to change the Title,
+// --Adding Bootstrap links.
