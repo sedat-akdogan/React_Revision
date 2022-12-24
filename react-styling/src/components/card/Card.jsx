@@ -2,7 +2,11 @@ import "./Card.css"
 
 const Card = () => {
   return (
-    <div>Card</div>
+    <div>
+        <h1>{language}</h1>
+        <img src={img} alt="img" />
+        <Button />
+    </div>
   )
 }
 
