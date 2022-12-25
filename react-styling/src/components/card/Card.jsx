@@ -1,13 +1,14 @@
-import "./Card.css"
+import Button from "../button/Button";
+import CardStyle from "./card.module.css";
 
-const Card = () => {
+const Card = ({ language, btn, img}) => {
   return (
     <div>
-        <h1>{language}</h1>
-        <img src={img} alt="img" />
-        <Button />
+        <h1 className={CardStyle["title"]}>{language}</h1>
+        <img className={CardStyle["images"]} src={img} alt="img" />
+        <Button btn={btn} />
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
