@@ -2,7 +2,7 @@ const data = [
     {
         id:1,
         language: "JS",
-        img:"https://upload.wikimedia.org/wikipedia/commons/tnumb/9/99/Unofficial_JavaScript_logo_2.svg/ 512px-Unofficial_JavaScript_logo_2.svg-png", 
+        img: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg", 
         btnName: "Info",
     },
     {
