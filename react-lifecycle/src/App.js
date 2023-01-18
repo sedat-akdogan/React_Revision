@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { useState } from "react";
+import LifeCycleMethods from "./components/LifeCycleMethods";
+import UseEffectHook from "./components/UseEffectHook";
+import User from "./components/User";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [show, setShow] = useState(true);
+
+    return (
+        <div className="container text-center mt-4">
+            <User />
+        </div>
+    );
 }
 
 export default App;
