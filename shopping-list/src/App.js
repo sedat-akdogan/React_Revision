@@ -1,7 +1,14 @@
+import React, { Component } from 'react';
 import './App.css';
 
 function App() {
-    return();
+    render(); {
+        return (
+            <div>
+                <Counter />
+            </div>
+        );
+    }
 }
 
 export default App;
