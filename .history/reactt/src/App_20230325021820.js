@@ -1,8 +1,10 @@
+import './App.css';
+
+
 function App() {
     return (
         <div>
-            <h1>Hello React</h1>
-            <h2>There is any problem??</h2>
+            <h1>Hello </h1>
         </div>
     );
 }
