@@ -1,3 +1,4 @@
+import { render } from "react-dom";
 
 function App() {
         return (

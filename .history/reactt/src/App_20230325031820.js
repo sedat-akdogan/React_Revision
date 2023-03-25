@@ -1,3 +1,4 @@
+import { render } from "react-dom";
 
 function App() {
         return (
@@ -6,6 +7,7 @@ function App() {
                 <h2>There is any problem??</h2>
             </div>
         );
+    
 }
 
 export default App;
