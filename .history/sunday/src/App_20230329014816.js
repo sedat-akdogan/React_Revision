@@ -7,9 +7,9 @@ function App() {
     return (
         <>
             <Header />
-            <Footer />
+            <Header />
         </>
-    );
+    )
 }
 
 export default App;
