@@ -1,7 +1,7 @@
 
 const Events = () => {
     const handleClick = () => {
-        alert("Button Clicked");
+        
     }
 
     return (

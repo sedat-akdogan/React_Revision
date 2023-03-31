@@ -1,8 +1,6 @@
 
 const Events = () => {
-    const handleClick = () => {
-        alert("Button Clicked");
-    }
+    const handleClick
 
     return (
         <div className='container text-center mt-4'>
