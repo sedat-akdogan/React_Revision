@@ -1,5 +1,5 @@
+
 const Events = () => {
-    let message = "Event-Based Programming";
     const handleClick = () => {
         alert("Button Clicked");
     }
@@ -9,12 +9,11 @@ const Events = () => {
     }
 
     const handleChange = (event) => {
-        console.log(event.target);
+        console.log(first)
     }
 
     return (
         <div className='container text-center mt-4'>
-            <h1>{message}</h1>
             <button
                 onClick={handleClick} className='btn btn-success'>
                 Click

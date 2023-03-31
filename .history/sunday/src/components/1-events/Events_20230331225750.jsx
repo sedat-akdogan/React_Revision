@@ -1,33 +1,24 @@
+
 const Events = () => {
-    let message = "Event-Based Programming";
     const handleClick = () => {
         alert("Button Clicked");
     }
 
-    const handleClear = (msg) => {
-        alert(msg);
-    }
+    const handleClear = ()=> {
 
-    const handleChange = (event) => {
-        console.log(event.target);
     }
 
     return (
         <div className='container text-center mt-4'>
-            <h1>{message}</h1>
             <button
                 onClick={handleClick} className='btn btn-success'>
                 Click
             </button>
 
             <button 
-            onClick={() => handleClear("Clear Button Clicked")} 
+            onClick={(handleClear} 
             className="btn btn-dark">
                 Clear
-            </button>
-
-            <button onclick={handleChange} className="btn btn-danger">
-                Change
             </button>
         </div>
     );

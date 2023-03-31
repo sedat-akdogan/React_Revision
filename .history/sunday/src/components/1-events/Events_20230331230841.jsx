@@ -1,5 +1,5 @@
 const Events = () => {
-    let message = "Event-Based Programming";
+    let message = "Evnet-Based Programming";
     const handleClick = () => {
         alert("Button Clicked");
     }
