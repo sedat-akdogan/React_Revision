@@ -6,7 +6,7 @@ class Counter extends Component {
         super(props)
 
         this.state = {
-            count: props.count || 0,
+            count: props.count 0,
         };
         this.increment = this.increment.bind(this); // binding
     }
