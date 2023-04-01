@@ -21,7 +21,7 @@ class Counter extends Component {
         });
     }
 
-    clear = () => {       // best practice; use arrow function
+    clear = () => {       // best practice
         this.setState ({
             count: this.state.count = 0,
         });

@@ -21,11 +21,6 @@ class Counter extends Component {
         });
     }
 
-    clear = () => {       // best practice; use arrow function
-        this.setState ({
-            count: this.state.count = 0,
-        });
-    }
 
     render() {
         return (
@@ -33,7 +28,7 @@ class Counter extends Component {
                 <h1>Classful Components</h1>
                 <h2 className='display-4 text-danger'>COUNT: {this.state.count}</h2>
                 <button onClick={this.increment} className='btn btn-success'>INC</button>
-                <button onClick={this.clear} className="btn btn-dark">CLR</button>
+                <button  className="btn btn-dark">CLR</button>
                 <button onClick={this.decrement} className="btn btn-danger">DEC</button>
             </div>
         );
