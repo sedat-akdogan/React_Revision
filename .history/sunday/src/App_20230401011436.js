@@ -6,8 +6,7 @@ import Counter from './components/2-classComponents/Counter';
 function App() {
     return (
         <div>
-            <Events /> 
-            <Counter /> 
+            <Events />  
         </div>
     );
 }
