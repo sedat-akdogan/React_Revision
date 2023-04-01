@@ -16,12 +16,15 @@ class Counter extends Component {
         return (
             <div className='container text-center mt-4'>
                 <h1>Classful Components</h1>
-                <h2 className='display-4 text-denger'>COUNT: </h2>
-                <button className='btn btn-success'>INC</button>
+                <button className='btn btn-success'>Click</button>
 
-                <button className="btn btn-dark">CLR</button>
+                <buttonclassName="btn btn-dark">
+                    Clear
+                </buttonclassName=>
 
-                <button  className="btn btn-danger">DEC</button>
+                <button  className="btn btn-danger">
+                    Change
+                </button>
             </div>
         );
     }
