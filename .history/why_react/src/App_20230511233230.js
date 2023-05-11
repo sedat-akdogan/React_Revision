@@ -7,7 +7,7 @@ function App() {
         <div>
             <h1>Welcome to React Learning</h1>
             <Button />
-            <Button />
+            
             <Profile />
             <Products />
         </div>

@@ -5,12 +5,12 @@ function Button() {
     const [count, setCount] = useState(0);
 
     function handleClick() {
-        setCount(count + 1);
+        setCount(count )
     }
 
     return (
         <button onClick={handleClick}>
-            Clicked {count} times
+            Click me
         </button>
     );
 }
