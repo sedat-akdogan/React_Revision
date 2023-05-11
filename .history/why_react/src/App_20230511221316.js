@@ -1,5 +1,5 @@
 import Button from './components/Button';
-import Profile from './components/Profile';
+import 
 
 function App() {
     return (
