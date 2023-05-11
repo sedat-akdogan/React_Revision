@@ -1,6 +1,6 @@
 import Button from './components/Button';
 import Profile from './components/Profile';
-import Products from './components/Products';
+
 
 function App() {
     return (
@@ -8,7 +8,6 @@ function App() {
             <h1>Welcome to React Learning</h1>
             <Button />
             <Profile />
-            <Products />
         </div>
     );
 }

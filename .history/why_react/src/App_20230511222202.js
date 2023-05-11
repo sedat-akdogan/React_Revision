@@ -8,7 +8,6 @@ function App() {
             <h1>Welcome to React Learning</h1>
             <Button />
             <Profile />
-            <Products />
         </div>
     );
 }
