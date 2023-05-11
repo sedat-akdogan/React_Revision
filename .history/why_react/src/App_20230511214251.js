@@ -9,8 +9,7 @@ function MyButton() {
 export default function MyApp() {
     return (
         <div>
-            <h1>Welcome to React Learning</h1>
-            <MyButton />
+            <h1>Welcome to </h1>
         </div>
-    );
+    )
 }

@@ -12,5 +12,5 @@ export default function MyApp() {
             <h1>Welcome to React Learning</h1>
             <MyButton />
         </div>
-    );
+    )
 }
