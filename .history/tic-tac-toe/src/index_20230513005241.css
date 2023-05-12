@@ -18,7 +18,7 @@ code {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: rgb(48, 174, 174);
+    background-color: rgb(29, 132, 132);
 }
 
 .square {
@@ -29,7 +29,6 @@ code {
     display: inline-block;
     justify-content: center;
     align-items: center;
-    color: rgb(48, 174, 174);
 }
 
 .board-row {
@@ -45,6 +44,7 @@ code {
 }
 
 .status {
-    color: rgb(174, 20, 9);
-    font-size: 40px;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
 }

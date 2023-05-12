@@ -12,39 +12,24 @@ code {
         monospace;
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: rgb(48, 174, 174);
-}
-
 .square {
     width: 100px;
     height: 100px;
-    font-size: 50px;
+    font-size: 24px;
     border: 1px solid #ccc;
     display: inline-block;
     justify-content: center;
     align-items: center;
-    color: rgb(48, 174, 174);
 }
 
 .board-row {
     display: flex;
-}
-
-.board-row .square {
-    margin: 10px;
-}
-
-.board-row:last-child .square {
+  }
+  
+  .board-row .square {
+    margin-right: 10px;
+  }
+  
+  .board-row:last-child .square {
     margin-bottom: 0;
-}
-
-.status {
-    color: rgb(174, 20, 9);
-    font-size: 40px;
-}
+  }
