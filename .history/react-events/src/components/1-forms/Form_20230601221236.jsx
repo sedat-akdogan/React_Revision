@@ -5,36 +5,36 @@ const Form = () => {
     return (
         <div>
             <form>
-                <h1 className="display-5 text-danger">FORMS</h1>
+                
                 <div className="mb-3">
-                    <label htmlFor="username" className="form-label">
-                        User Name
-                    </label>
-                    <input
-                        type="text"
-                        className="form-control"
-                        id="username"
-                    />
-                </div>
-                <div className="mb-3">
-                    <label htmlFor="email" className="form-label">
+                    <label htmlFor="exampleInputEmail1" className="form-label">
                         Email address
                     </label>
                     <input
                         type="email"
                         className="form-control"
-                        id="email"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
                     />
+                    <div id="emailHelp" className="form-text">
+                        We'll never share your email with anyone else.
+                    </div>
                 </div>
                 <div className="mb-3">
-                    <label htmlFor="password" className="form-label">
+                    <label htmlFor="exampleInputPassword1" className="form-label">
                         Password
                     </label>
                     <input
                         type="password"
                         className="form-control"
-                        id="password"
+                        id="exampleInputPassword1"
                     />
+                </div>
+                <div className="mb-3 form-check">
+                    <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+                    <label className="form-check-label" htmlFor="exampleCheck1">
+                        Check me out
+                    </label>
                 </div>
                 <button type="submit" className="btn btn-primary">
                     Submit

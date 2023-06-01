@@ -14,26 +14,28 @@ const Form = () => {
                         type="text"
                         className="form-control"
                         id="username"
+                        aria-describedby="emailHelp"
                     />
                 </div>
                 <div className="mb-3">
-                    <label htmlFor="email" className="form-label">
+                    <label htmlFor="exampleInputEmail1" className="form-label">
                         Email address
                     </label>
                     <input
                         type="email"
                         className="form-control"
-                        id="email"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
                     />
                 </div>
                 <div className="mb-3">
-                    <label htmlFor="password" className="form-label">
+                    <label htmlFor="exampleInputPassword1" className="form-label">
                         Password
                     </label>
                     <input
                         type="password"
                         className="form-control"
-                        id="password"
+                        id="exampleInputPassword1"
                     />
                 </div>
                 <button type="submit" className="btn btn-primary">

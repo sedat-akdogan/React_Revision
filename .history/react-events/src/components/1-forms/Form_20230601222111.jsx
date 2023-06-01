@@ -33,7 +33,7 @@ const Form = () => {
                     <input
                         type="password"
                         className="form-control"
-                        id="password"
+                        id="exampleInputPassword1"
                     />
                 </div>
                 <button type="submit" className="btn btn-primary">
