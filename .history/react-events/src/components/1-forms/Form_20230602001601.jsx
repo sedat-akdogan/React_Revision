@@ -8,9 +8,7 @@ const Form = () => {
         console.log("Form Submitted!");
     };
 
-    const handleUsername = () => {
-        console.log(e.target.value);
-    };
+    const handleUsername = () => {};
 
     return (
         <div>

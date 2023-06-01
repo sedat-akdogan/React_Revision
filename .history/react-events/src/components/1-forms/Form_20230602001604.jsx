@@ -9,7 +9,7 @@ const Form = () => {
     };
 
     const handleUsername = () => {
-        console.log(e.target.value);
+        
     };
 
     return (

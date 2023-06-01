@@ -5,11 +5,6 @@ const Form = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(e.target);
-        console.log("Form Submitted!");
-    };
-
-    const handleUsername = () => {
-        console.log(e.target.value);
     };
 
     return (
@@ -24,7 +19,6 @@ const Form = () => {
                         type="text"
                         className="form-control"
                         id="username"
-                        onChange={handleUsername}
                     />
                 </div>
                 <div className="mb-3">

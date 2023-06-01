@@ -8,10 +8,6 @@ const Form = () => {
         console.log("Form Submitted!");
     };
 
-    const handleUsername = () => {
-        console.log(e.target.value);
-    };
-
     return (
         <div>
             <form onSubmit={handleSubmit}>
@@ -24,7 +20,7 @@ const Form = () => {
                         type="text"
                         className="form-control"
                         id="username"
-                        onChange={handleUsername}
+                        onChange={handleUser}
                     />
                 </div>
                 <div className="mb-3">
